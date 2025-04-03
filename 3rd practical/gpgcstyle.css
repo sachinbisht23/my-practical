@@ -1,0 +1,25 @@
+body{
+    background-color: #c0c0c0;
+}
+h1{
+    margin-left: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bolder;
+    height: 100px;
+    padding-top: 43px;
+    background-color: ;
+
+}
+#gp{
+    width: 163px;
+    height: 163px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 1px solid black;
+    
+}
+hr{
+    margin-top: 15px;
+    color: black;
+}
