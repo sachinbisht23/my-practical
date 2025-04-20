@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+    <TITLE>MINI WEBSITE</TITLE>
+    <link rel="icon" type="image/x-icon" href="">
+    <meta charset="UTF-16">
+    <meta name="description" content="This is a website for form practice">
+    <meta name="viewport" content="width=device-width,initial-scale=1.o">
+    <meta name="author" content="Sachin">
+    <style>
+        main {
+            border: 2px solid black;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 10px;
+            background-color:dimgrey;
+            color: rgb(0, 0, 0);
+            height: 500px;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: aqua;
+            text-decoration: underline;
+            margin-top: 0px;
+        }
+
+        .d {
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .input,
+        .hoby {
+            font-size: 20px;
+        }
+
+        input {
+            border: 1px solid black;
+        }
+
+        .hoby {
+            margin-left: 15px;
+        }
+    </style>
+</HEAD>
+
+<body>
+    <header>
+        <div>
+            <h1>
+                My Registration Form
+            </h1>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <div class="d">
+                <input type="text" name="fname" class="input" placeholder="First Name" required>
+                <input type="text" name="lname" class="input" placeholder="Last Name(Optional)">
+            </div>
+            <div class="d">
+                <input type="email" name="email" class="input" placeholder="Email ID" required>
+            </div>
+            <div class="d">
+                <input type="number" name="p_no" class="input" placeholder="Phone Number" required>
+            </div>
+            <div class="d">
+                <label for="" class="input">Gender:</label>
+                <label for="" class="hoby">Male</label>
+                <input type="radio" name="Gender" id="gender">
+                <label for="" class="hoby">Female</label>
+                <input type="radio" name="Gender" id="gender">
+            </div>
+            <div class="d">
+                <label for="" class="hoby">Hobbies : </label>
+                <label for="" class="hoby">Sports</label>
+                <input type="checkbox">
+                <label for="" class="hoby">Reading</label>
+                <input type="checkbox">
+                <label for="" class="hoby">Gaming</label>
+                <input type="checkbox">
+                <label for="" class="hoby">Watching Movies</label>
+                <input type="checkbox">
+                <label for="" class="hoby">Overthinking</label>
+                <input type="checkbox">
+            </div>
+            <div class="d">
+                <input type="password" id="p" class="input" placeholder="Enter Your Password" required>
+            </div>
+            <div class="d">
+                <input type="password" class="input" placeholder="Confirm Your Password" required>
+            </div>
+            <div class="d">
+                <input type="submit" class="input" placeholder="Submit ">
+            </div>
+        </form>
+    </main>
+
+</body>
